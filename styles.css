@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    width: 100vw;;
+}
+.hide{
+    display: none;
+}
+
+/****************** SCORECARD ********************/
+#head{
+    height: 25vh;
+    width: 100vw;
+    background-color: rgb(63, 63, 68);
+    color: #fff;
+}
+#scorecard{
+    display: flex;
+}
+.score, .level {
+    margin: 5vh 5vw;
+    width: 50vw;
+    font-size: 1.7vh;
+    text-align: center;
+    font-family:  'Press Start 2P', cursive;
+    color: #fff;
+}
+#score , #level{
+    padding: 20px;
+    font-size: 40px;
+}
+
+/****************** GAME ********************/
+.game{
+    height: 75vh;
+    width: 100vw;
+    position: relative;
+    margin: 10vh 0px;
+    background-color: #fff;
+}
+.startgame{
+    text-align: center;
+    padding-top: 30vh;
+    line-height: 2;
+    font-size: 3vh;
+}
+.startgame button{
+    background-color: rgb(63, 63, 68);
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+.startgame button:hover{
+    color: rgb(63, 63, 68);
+    background-color: #fff;
+    outline: 1px solid rgb(63, 63, 68);
+}
+#ball{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+}
+/****************** FOOTER ********************/
+
+.bottom-container
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(63, 63, 68);
+    padding: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+.bottom-container p{
+    margin: 10px;
+}
+.footer-link
+{
+    line-height: 1.6;
+    text-decoration: none;
+    word-spacing: 30px;
+    color: #fff;
+    margin: 20px 20px;
+    padding: 10px 0px;
+}

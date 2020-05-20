@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOUCH THE BALL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./theme.css">
+</head>
+<body>
+    <div id="head">
+        <marquee direction="left" scrollamount="10" ><h1 id="headline">TOUCH THE BALL</h1></marquee>
+        <div id="scorecard">
+            <span class="score">
+                <h1>Score</h1><h1 id="score" class="odometer">00</h1>
+            </span>
+
+            <span class="level">
+                <h1>Level</h1><h1 id="level" class="odometer">00</h1>
+            </span>
+        </div>
+        
+    </div>
+    
+
+
+    <div id="playarea" class="game">
+        <div id="game" class="startgame">
+            <h1>ARE YOU READY!!!</h1>
+            <button id="startgame">START GAME</button>
+        </div>
+        <div id="ball" class="hide">
+        </div>
+        <div id="endgame" class="startgame hide">
+            <h1>CONGRATULATIONS!!!</h1>
+            <button id="reloadgame">START AGAIN</button>
+        </div>
+    </div>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/bhavuk-dhawan-739242146">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/devloup4Bhavuk">GitHub</a>
+        <a class="footer-link" href="https://www.facebook.com/bhavuk.daone">Facebook</a>
+        <a class="footer-link" href="https://www.instagram.com/bhavuk_dhawan/">Instagram</a>
+        
+        <p>© 2020 devloup4Bhavuk.</p>
+    </div>
+    <script src="./index.js"></script>
+    <script type="text/javascript" src="odometer.js"></script>
+</body>
+</html>
